@@ -19,7 +19,7 @@ $ tree
 0 directories, 2 files
 
 ## Execute yggdrasil node
-$ docker run --rm -ti --net=host --cap-add=NET_ADMIN --device=/dev/net/tun -v $(pwd):/config jorektheglitch/yggdrasil
+$ docker run --rm -ti --net=host --cap-add=NET_ADMIN --device=/dev/net/tun -v yggdrasil_docker:/config jorektheglitch/yggdrasil
 ```
 
 ## Notes
